@@ -77,34 +77,42 @@ body {
 		height: 90vh;
 		overflow-y: scroll;
 	}
+
 	#container {
-		display: flex;
-		flex-direction: row;
-		justify-content: center;
-		background-color: black;
-		
-		#content1 {
-			width: 50%;
-			background-color: #F8F8F8;
+		//background-color: rgba(26, 69, 79, 0.7);
+		height: 100%;
+		width: 100%;
+
+		#content {
+			width: 100%;
+			height: 100%;
+			background-color: rgba(248, 248, 248, 0.7);
+			transition: background-color 5s ease;
 			text-align: center;
 			word-wrap: break-word;
-			overflow: hidden;
-			padding-top: 20vh;
-
+			overflow-x: hidden;
+			overflow-y: scroll;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			
 			h1 {
 				font-family: 'Permanent Marker';
 				font-size: 10vw;
 				color: #F5D73F;
+				position: relative;
+				top: -30px;
 			}
 			h2 {
-				position: relative;
-				top: 35px;
 				font-family: 'Permanent Marker';
 				font-size: 2.7vw;
 				color: #1A454F;
+				position: relative;
 			}
 
 			ul {
+				position: relative;
+				top: -25px;
 
 				li {
 					font-family: 'Faster One';
@@ -115,91 +123,215 @@ body {
 					white-space: pre;
 				}				
 			}
+			.text-appear {
+				top: -30px;
+			  	opacity: 0;
+			}
+
+			.text-appear.text-appear-active {
+				top: 0px;
+			  	opacity: 1;
+				-webkit-transition: all 3000ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+				   -moz-transition: all 3000ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+				     -o-transition: all 3000ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+				        transition: all 3000ms cubic-bezier(0.250, 0.100, 0.250, 1.000); /* ease (default) */
+			}
 			.text0-appear {
+				top: -60px;
 			  	opacity: 0;
 			}
 
 			.text0-appear.text0-appear-active {
+				top: -30px;
 			  	opacity: 1;
-				-webkit-transition: all 2000ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
-				   -moz-transition: all 2000ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
-				     -o-transition: all 2000ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
-				        transition: all 2000ms cubic-bezier(0.250, 0.100, 0.250, 1.000); /* ease (default) */
+				-webkit-transition: all 3000ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+				   -moz-transition: all 3000ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+				     -o-transition: all 3000ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+				        transition: all 3000ms cubic-bezier(0.250, 0.100, 0.250, 1.000); /* ease (default) */
 			}
 			.text1-appear {
 			  	left: -100%;
+			  	transform: rotate(-180deg);
 			}
 
 			.text1-appear.text1-appear-active {
 			  	left: 0%;
+			  	transform: rotate(0deg);
+				-webkit-transition: all 4000ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+				-webkit-transition: all 4000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+				   -moz-transition: all 4000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+				     -o-transition: all 4000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+				        transition: all 4000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+			}
+			.text2-appear {
+			  	left: -100%;
+			  	transform: rotate(-170deg);
+			}
+
+			.text2-appear.text2-appear-active {
+			  	left: 0%;
+			  	transform: rotate(0deg);
+				-webkit-transition: all 3700ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+				-webkit-transition: all 3700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+				   -moz-transition: all 3700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+				     -o-transition: all 3700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+				        transition: all 3700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+			}
+			.text3-appear {
+			  	left: -100%;
+			  	transform: rotate(-160deg);
+			}
+
+			.text3-appear.text3-appear-active {
+			  	left: 0%;
+			  	transform: rotate(0deg);
+				-webkit-transition: all 3400ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+				-webkit-transition: all 3400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+				   -moz-transition: all 3400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+				     -o-transition: all 3400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+				        transition: all 3400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+			}
+			.text4-appear {
+			  	left: -100%;
+			  	transform: rotate(-180deg);
+			}
+
+			.text4-appear.text4-appear-active {
+			  	left: 0%;
+			  	transform: rotate(0deg);
+				-webkit-transition: all 3100ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+				-webkit-transition: all 3100ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+				   -moz-transition: all 3100ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+				     -o-transition: all 3100ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+				        transition: all 3100ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+			}
+			.text5-appear {
+			  	left: -100%;
+			  	transform: rotate(-180deg);
+			}
+
+			.text5-appear.text5-appear-active {
+			  	left: 0%;
+			  	transform: rotate(0deg);
+				-webkit-transition: all 2800ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+				-webkit-transition: all 2800ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+				   -moz-transition: all 2800ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+				     -o-transition: all 2800ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+				        transition: all 2800ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+			}
+			.text6-appear {
+			  	left: -100%;
+			  	transform: rotate(-180deg);
+			}
+
+			.text6-appear.text6-appear-active {
+			  	left: 0%;
+			  	transform: rotate(0deg);
+				-webkit-transition: all 2500ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+				-webkit-transition: all 2500ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+				   -moz-transition: all 2500ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+				     -o-transition: all 2500ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+				        transition: all 2500ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+			}
+			.text7-appear {
+			  	left: -100%;
+			  	transform: rotate(-180deg);
+			}
+
+			.text7-appear.text7-appear-active {
+			  	left: 0%;
+			  	transform: rotate(0deg);
+				-webkit-transition: all 2200ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+				-webkit-transition: all 2200ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+				   -moz-transition: all 2200ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+				     -o-transition: all 2200ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+				        transition: all 2200ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+			}
+			.text8-appear {
+			  	left: -100%;
+			  	transform: rotate(-180deg);
+			}
+
+			.text8-appear.text8-appear-active {
+			  	left: 0%;
+			  	transform: rotate(0deg);
+				-webkit-transition: all 1900ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+				-webkit-transition: all 1900ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+				   -moz-transition: all 1900ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+				     -o-transition: all 1900ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+				        transition: all 1900ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+			}
+			.text9-appear {
+			  	left: -100%;
+			  	transform: rotate(-180deg);
+			}
+
+			.text9-appear.text9-appear-active {
+			  	left: 0%;
+			  	transform: rotate(0deg);
+				-webkit-transition: all 1600ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+				-webkit-transition: all 1600ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+				   -moz-transition: all 1600ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+				     -o-transition: all 1600ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+				        transition: all 1600ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+			}
+			.text10-appear {
+			  	left: -100%;
+			  	transform: rotate(-180deg);
+			}
+
+			.text10-appear.text10-appear-active {
+			  	left: 0%;
+			  	transform: rotate(0deg);
+				-webkit-transition: all 1300ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+				-webkit-transition: all 1300ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+				   -moz-transition: all 1300ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+				     -o-transition: all 1300ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+				        transition: all 1300ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+			}
+			.text11-appear {
+			  	left: -100%;
+			  	transform: rotate(180deg);
+			}
+
+			.text11-appear.text11-appear-active {
+			  	left: 0%;
+			  	transform: rotate(0deg);
 				-webkit-transition: all 1000ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
 				-webkit-transition: all 1000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
 				   -moz-transition: all 1000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
 				     -o-transition: all 1000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
 				        transition: all 1000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
 			}
-			.text2-appear {
+			.text12-appear {
 			  	left: -100%;
+			  	transform: rotate(-180deg);
 			}
 
-			.text2-appear.text2-appear-active {
+			.text12-appear.text12-appear-active {
 			  	left: 0%;
-				-webkit-transition: all 1000ms cubic-bezier(0.200, 0.035, 0.285, 1); /* older webkit */
-				-webkit-transition: all 1000ms cubic-bezier(0.200, 0.035, 0.285, 1.200); 
-				   -moz-transition: all 1000ms cubic-bezier(0.200, 0.035, 0.285, 1.200); 
-				     -o-transition: all 1000ms cubic-bezier(0.200, 0.035, 0.285, 1.200); 
-				        transition: all 1000ms cubic-bezier(0.200, 0.035, 0.285, 1.200); /* custom */
+			  	transform: rotate(0deg);
+				-webkit-transition: all 700ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+				-webkit-transition: all 700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+				   -moz-transition: all 700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+				     -o-transition: all 700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+				        transition: all 700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
 			}
-			.text3-appear {
+			.text13-appear {
 			  	left: -100%;
+			  	transform: rotate(-180deg);
 			}
 
-			.text3-appear.text3-appear-active {
+			.text13-appear.text13-appear-active {
 			  	left: 0%;
-				-webkit-transition: all 1000ms cubic-bezier(0.200, 0.035, 0.380, 1); /* older webkit */
-				-webkit-transition: all 1000ms cubic-bezier(0.200, 0.035, 0.380, 1.430); 
-				   -moz-transition: all 1000ms cubic-bezier(0.200, 0.035, 0.380, 1.430); 
-				     -o-transition: all 1000ms cubic-bezier(0.200, 0.035, 0.380, 1.430); 
-				        transition: all 1000ms cubic-bezier(0.200, 0.035, 0.380, 1.430); /* custom */
-			}
-			.text4-appear {
-			  	left: -100%;
+			  	transform: rotate(0deg);
+				-webkit-transition: all 400ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+				-webkit-transition: all 400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+				   -moz-transition: all 400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+				     -o-transition: all 400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+				        transition: all 400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
 			}
 
-			.text4-appear.text4-appear-active {
-			  	left: 0%;
-				-webkit-transition: all 1000ms cubic-bezier(0.200, 0.035, 0.290, 1); /* older webkit */
-				-webkit-transition: all 1000ms cubic-bezier(0.200, 0.035, 0.290, 1.650); 
-				   -moz-transition: all 1000ms cubic-bezier(0.200, 0.035, 0.290, 1.650); 
-				     -o-transition: all 1000ms cubic-bezier(0.200, 0.035, 0.290, 1.650); 
-				        transition: all 1000ms cubic-bezier(0.200, 0.035, 0.290, 1.650); /* custom */
-			}
-		}
-
-		#content2 {
-			width: 50%;
-			overflow: hidden;
-		}
-
-		.coding-img {
-			position: relative;
-			left: -35%;
-			height: 100%;
-			width: auto;
-			opacity: 0.9;
-		}
-
-		.img-appear {
-		  	left: 0%;
-		}
-
-		.img-appear.img-appear-active {
-		  	left: -35%;
-			-webkit-transition: left 4000ms cubic-bezier(0.000, 1, 0.275, 0.950); /* older webkit */
-			-webkit-transition: left 4000ms cubic-bezier(0.000, 1.090, 0.275, 0.950); 
-			   -moz-transition: left 4000ms cubic-bezier(0.000, 1.090, 0.275, 0.950); 
-			     -o-transition: left 4000ms cubic-bezier(0.000, 1.090, 0.275, 0.950); 
-			        transition: left 4000ms cubic-bezier(0.000, 1.090, 0.275, 0.950); /* custom */
 		}
 	}
 
