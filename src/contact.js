@@ -82,10 +82,12 @@ export default class Contact extends React.Component {
 	    	message: ''
 	    });	
 
-	    // scroll to the top of message list
+	    
+	    // scroll to the bottom of message list
 	    $('#message-list-wrapper').animate({
-	        scrollTop: 0
-	    }, 500);	
+	        scrollTop: document.getElementById('message-list-wrapper').scrollHeight
+	    }, 500);
+	    
 	}
 
 	handleUsernameChange(event){
