@@ -1,0 +1,1167 @@
+// for 'Hey, I'm Colin'
+.text-appear {
+	top: -30px;
+  	opacity: 0;
+}
+
+.text-appear.text-appear-active {
+	top: 0px;
+  	opacity: 1;
+	-webkit-transition: all 3000ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+	   -moz-transition: all 3000ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+	     -o-transition: all 3000ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+	        transition: all 3000ms cubic-bezier(0.250, 0.100, 0.250, 1.000); /* ease (default) */
+}
+.text0-appear {
+	top: -60px;
+  	opacity: 0;
+}
+
+.text0-appear.text0-appear-active {
+	top: -30px;
+  	opacity: 1;
+	-webkit-transition: all 3000ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+	   -moz-transition: all 3000ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+	     -o-transition: all 3000ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+	        transition: all 3000ms cubic-bezier(0.250, 0.100, 0.250, 1.000); /* ease (default) */
+}
+
+// for flyingText1
+.text1-appear {
+  	left: -100%;
+  	transform: rotate(-180deg);
+}
+
+.text1-appear.text1-appear-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 4000ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 4000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 4000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 4000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 4000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text2-appear {
+  	left: -100%;
+  	transform: rotate(-170deg);
+}
+
+.text2-appear.text2-appear-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 3700ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 3700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 3700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 3700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 3700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text3-appear {
+  	left: -100%;
+  	transform: rotate(-160deg);
+}
+
+.text3-appear.text3-appear-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 3400ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 3400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 3400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 3400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 3400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text4-appear {
+  	left: -100%;
+  	transform: rotate(-180deg);
+}
+
+.text4-appear.text4-appear-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 3100ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 3100ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 3100ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 3100ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 3100ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text5-appear {
+  	left: -100%;
+  	transform: rotate(-180deg);
+}
+
+.text5-appear.text5-appear-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 2800ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 2800ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 2800ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 2800ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 2800ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text6-appear {
+  	left: -100%;
+  	transform: rotate(-180deg);
+}
+
+.text6-appear.text6-appear-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 2500ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 2500ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 2500ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 2500ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 2500ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text7-appear {
+  	left: -100%;
+  	transform: rotate(-180deg);
+}
+
+.text7-appear.text7-appear-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 2200ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 2200ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 2200ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 2200ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 2200ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text8-appear {
+  	left: -100%;
+  	transform: rotate(-180deg);
+}
+
+.text8-appear.text8-appear-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 1900ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 1900ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 1900ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 1900ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 1900ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text9-appear {
+  	left: -100%;
+  	transform: rotate(-180deg);
+}
+
+.text9-appear.text9-appear-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 1600ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 1600ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 1600ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 1600ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 1600ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text10-appear {
+  	left: -100%;
+  	transform: rotate(-180deg);
+}
+
+.text10-appear.text10-appear-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 1300ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 1300ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 1300ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 1300ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 1300ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text11-appear {
+  	left: -100%;
+  	transform: rotate(180deg);
+}
+
+.text11-appear.text11-appear-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 1000ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 1000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 1000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 1000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 1000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text12-appear {
+  	left: -100%;
+  	transform: rotate(-180deg);
+}
+
+.text12-appear.text12-appear-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 700ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text13-appear {
+  	left: -100%;
+  	transform: rotate(-180deg);
+}
+
+.text13-appear.text13-appear-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 400ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+
+.text1-leave {
+  	left: 0%;
+  	transform: rotate(0deg);
+}
+
+.text1-leave.text1-leave-active {
+  	left: 100%;
+  	transform: rotate(180deg);
+	-webkit-transition: all 4000ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 4000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 4000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 4000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 4000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text2-leave {
+  	left: 0%;
+  	transform: rotate(0deg);
+}
+
+.text2-leave.text2-leave-active {
+  	left: 100%;
+  	transform: rotate(180deg);
+	-webkit-transition: all 3700ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 3700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 3700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 3700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 3700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text3-leave {
+  	left: 0%;
+  	transform: rotate(0deg);
+}
+
+.text3-leave.text3-leave-active {
+  	left: 100%;
+  	transform: rotate(180deg);
+	-webkit-transition: all 3400ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 3400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 3400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 3400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 3400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text4-leave {
+  	left: 0%;
+  	transform: rotate(0deg);
+}
+
+.text4-leave.text4-leave-active {
+  	left: 100%;
+  	transform: rotate(180deg);
+	-webkit-transition: all 3100ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 3100ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 3100ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 3100ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 3100ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text5-leave {
+  	left: 0%;
+  	transform: rotate(0deg);
+}
+
+.text5-leave.text5-leave-active {
+  	left: 100%;
+  	transform: rotate(180deg);
+	-webkit-transition: all 2800ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 2800ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 2800ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 2800ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 2800ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text6-leave {
+  	left: 0%;
+  	transform: rotate(0deg);
+}
+
+.text6-leave.text6-leave-active {
+  	left: 100%;
+  	transform: rotate(180deg);
+	-webkit-transition: all 2500ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 2500ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 2500ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 2500ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 2500ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text7-leave {
+  	left: 0%;
+  	transform: rotate(0deg);
+}
+
+.text7-leave.text7-leave-active {
+  	left: 100%;
+  	transform: rotate(180deg);
+	-webkit-transition: all 2200ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 2200ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 2200ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 2200ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 2200ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text8-leave {
+  	left: 0%;
+  	transform: rotate(0deg);
+}
+
+.text8-leave.text8-leave-active {
+  	left: 100%;
+  	transform: rotate(180deg);
+	-webkit-transition: all 1900ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 1900ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 1900ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 1900ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 1900ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text9-leave {
+  	left: 0%;
+  	transform: rotate(0deg);
+}
+
+.text9-leave.text9-leave-active {
+  	left: 100%;
+  	transform: rotate(180deg);
+	-webkit-transition: all 1600ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 1600ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 1600ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 1600ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 1600ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text10-leave {
+  	left: 0%;
+  	transform: rotate(0deg);
+}
+
+.text10-leave.text10-leave-active {
+  	left: 100%;
+  	transform: rotate(180deg);
+	-webkit-transition: all 1300ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 1300ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 1300ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 1300ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 1300ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text11-leave {
+  	left: 0%;
+  	transform: rotate(0deg);
+}
+
+.text11-leave.text11-leave-active {
+  	left: 100%;
+  	transform: rotate(180deg);
+	-webkit-transition: all 1000ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 1000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 1000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 1000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 1000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text12-leave {
+  	left: 0%;
+  	transform: rotate(0deg);
+}
+
+.text12-leave.text12-leave-active {
+  	left: 100%;
+  	transform: rotate(180deg);
+	-webkit-transition: all 700ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text13-leave {
+  	left: 0%;
+  	transform: rotate(0deg);
+}
+
+.text13-leave.text13-leave-active {
+  	left: 100%;
+  	transform: rotate(180deg);
+	-webkit-transition: all 400ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text1-enter {
+  	left: -100%;
+  	transform: rotate(-180deg);
+}
+
+.text1-enter.text1-enter-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 4000ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 4000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 4000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 4000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 4000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text2-enter {
+  	left: -100%;
+  	transform: rotate(-170deg);
+}
+
+.text2-enter.text2-enter-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 3700ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 3700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 3700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 3700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 3700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text3-enter {
+  	left: -100%;
+  	transform: rotate(-160deg);
+}
+
+.text3-enter.text3-enter-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 3400ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 3400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 3400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 3400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 3400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text4-enter {
+  	left: -100%;
+  	transform: rotate(-180deg);
+}
+
+.text4-enter.text4-enter-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 3100ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 3100ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 3100ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 3100ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 3100ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text5-enter {
+  	left: -100%;
+  	transform: rotate(-180deg);
+}
+
+.text5-enter.text5-enter-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 2800ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 2800ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 2800ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 2800ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 2800ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text6-enter {
+  	left: -100%;
+  	transform: rotate(-180deg);
+}
+
+.text6-enter.text6-enter-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 2500ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 2500ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 2500ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 2500ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 2500ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text7-enter {
+  	left: -100%;
+  	transform: rotate(-180deg);
+}
+
+.text7-enter.text7-enter-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 2200ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 2200ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 2200ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 2200ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 2200ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text8-enter {
+  	left: -100%;
+  	transform: rotate(-180deg);
+}
+
+.text8-enter.text8-enter-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 1900ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 1900ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 1900ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 1900ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 1900ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text9-enter {
+  	left: -100%;
+  	transform: rotate(-180deg);
+}
+
+.text9-enter.text9-enter-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 1600ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 1600ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 1600ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 1600ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 1600ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text10-enter {
+  	left: -100%;
+  	transform: rotate(-180deg);
+}
+
+.text10-enter.text10-enter-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 1300ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 1300ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 1300ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 1300ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 1300ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text11-enter {
+  	left: -100%;
+  	transform: rotate(180deg);
+}
+
+.text11-enter.text11-enter-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 1000ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 1000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 1000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 1000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 1000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text12-enter {
+  	left: -100%;
+  	transform: rotate(-180deg);
+}
+
+.text12-enter.text12-enter-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 700ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text13-enter {
+  	left: -100%;
+  	transform: rotate(-180deg);
+}
+
+.text13-enter.text13-enter-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 400ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+
+// for flyingText2
+.text14-appear {
+  	left: -100%;
+  	transform: rotate(-180deg);
+}
+
+.text14-appear.text14-appear-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 4000ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 4000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 4000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 4000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 4000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text15-appear {
+  	left: -100%;
+  	transform: rotate(-170deg);
+}
+
+.text15-appear.text15-appear-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 3700ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 3700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 3700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 3700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 3700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text16-appear {
+  	left: -100%;
+  	transform: rotate(-160deg);
+}
+
+.text16-appear.text16-appear-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 3400ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 3400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 3400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 3400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 3400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text17-appear {
+  	left: -100%;
+  	transform: rotate(-180deg);
+}
+
+.text17-appear.text17-appear-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 3100ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 3100ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 3100ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 3100ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 3100ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text18-appear {
+  	left: -100%;
+  	transform: rotate(-180deg);
+}
+
+.text18-appear.text18-appear-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 2800ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 2800ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 2800ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 2800ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 2800ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text19-appear {
+  	left: -100%;
+  	transform: rotate(-180deg);
+}
+
+.text19-appear.text19-appear-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 2500ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 2500ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 2500ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 2500ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 2500ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text20-appear {
+  	left: -100%;
+  	transform: rotate(-180deg);
+}
+
+.text20-appear.text20-appear-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 2200ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 2200ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 2200ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 2200ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 2200ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text21-appear {
+  	left: -100%;
+  	transform: rotate(-180deg);
+}
+
+.text21-appear.text21-appear-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 1900ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 1900ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 1900ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 1900ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 1900ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text22-appear {
+  	left: -100%;
+  	transform: rotate(-180deg);
+}
+
+.text22-appear.text22-appear-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 1600ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 1600ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 1600ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 1600ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 1600ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text23-appear {
+  	left: -100%;
+  	transform: rotate(-180deg);
+}
+
+.text23-appear.text23-appear-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 1300ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 1300ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 1300ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 1300ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 1300ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text24-appear {
+  	left: -100%;
+  	transform: rotate(180deg);
+}
+
+.text24-appear.text24-appear-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 1000ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 1000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 1000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 1000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 1000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text25-appear {
+  	left: -100%;
+  	transform: rotate(-180deg);
+}
+
+.text25-appear.text25-appear-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 700ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text26-appear {
+  	left: -100%;
+  	transform: rotate(-180deg);
+}
+
+.text26-appear.text26-appear-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 400ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text27-appear {
+  	left: -100%;
+  	transform: rotate(-180deg);
+}
+
+.text27-appear.text27-appear-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 100ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 100ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 100ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 100ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 100ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+
+.text14-leave {
+  	left: 0%;
+  	transform: rotate(0deg);
+}
+
+.text14-leave.text14-leave-active {
+  	left: 100%;
+  	transform: rotate(180deg);
+	-webkit-transition: all 4000ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 4000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 4000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 4000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 4000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text15-leave {
+  	left: 0%;
+  	transform: rotate(0deg);
+}
+
+.text15-leave.text15-leave-active {
+  	left: 100%;
+  	transform: rotate(180deg);
+	-webkit-transition: all 3700ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 3700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 3700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 3700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 3700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text16-leave {
+  	left: 0%;
+  	transform: rotate(0deg);
+}
+
+.text16-leave.text16-leave-active {
+  	left: 100%;
+  	transform: rotate(180deg);
+	-webkit-transition: all 3400ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 3400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 3400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 3400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 3400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text17-leave {
+  	left: 0%;
+  	transform: rotate(0deg);
+}
+
+.text17-leave.text17-leave-active {
+  	left: 100%;
+  	transform: rotate(180deg);
+	-webkit-transition: all 3100ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 3100ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 3100ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 3100ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 3100ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text18-leave {
+  	left: 0%;
+  	transform: rotate(0deg);
+}
+
+.text18-leave.text18-leave-active {
+  	left: 100%;
+  	transform: rotate(180deg);
+	-webkit-transition: all 2800ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 2800ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 2800ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 2800ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 2800ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text19-leave {
+  	left: 0%;
+  	transform: rotate(0deg);
+}
+
+.text19-leave.text19-leave-active {
+  	left: 100%;
+  	transform: rotate(180deg);
+	-webkit-transition: all 2500ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 2500ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 2500ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 2500ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 2500ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text20-leave {
+  	left: 0%;
+  	transform: rotate(0deg);
+}
+
+.text20-leave.text20-leave-active {
+  	left: 100%;
+  	transform: rotate(180deg);
+	-webkit-transition: all 2200ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 2200ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 2200ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 2200ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 2200ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text21-leave {
+  	left: 0%;
+  	transform: rotate(0deg);
+}
+
+.text21-leave.text21-leave-active {
+  	left: 100%;
+  	transform: rotate(180deg);
+	-webkit-transition: all 1900ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 1900ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 1900ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 1900ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 1900ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text22-leave {
+  	left: 0%;
+  	transform: rotate(0deg);
+}
+
+.text22-leave.text22-leave-active {
+  	left: 100%;
+  	transform: rotate(180deg);
+	-webkit-transition: all 1600ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 1600ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 1600ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 1600ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 1600ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text23-leave {
+  	left: 0%;
+  	transform: rotate(0deg);
+}
+
+.text23-leave.text23-leave-active {
+  	left: 100%;
+  	transform: rotate(180deg);
+	-webkit-transition: all 1300ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 1300ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 1300ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 1300ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 1300ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text24-leave {
+  	left: 0%;
+  	transform: rotate(0deg);
+}
+
+.text24-leave.text24-leave-active {
+  	left: 100%;
+  	transform: rotate(180deg);
+	-webkit-transition: all 1000ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 1000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 1000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 1000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 1000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text25-leave {
+  	left: 0%;
+  	transform: rotate(0deg);
+}
+
+.text25-leave.text25-leave-active {
+  	left: 100%;
+  	transform: rotate(180deg);
+	-webkit-transition: all 700ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text26-leave {
+  	left: 0%;
+  	transform: rotate(0deg);
+}
+
+.text26-leave.text26-leave-active {
+  	left: 100%;
+  	transform: rotate(180deg);
+	-webkit-transition: all 400ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text27-leave {
+  	left: 0%;
+  	transform: rotate(0deg);
+}
+
+.text27-leave.text27-leave-active {
+  	left: 100%;
+  	transform: rotate(180deg);
+	-webkit-transition: all 100ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 100ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 100ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 100ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 100ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text14-enter {
+  	left: -100%;
+  	transform: rotate(-180deg);
+}
+
+.text14-enter.text14-enter-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 4000ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 4000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 4000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 4000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 4000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text15-enter {
+  	left: -100%;
+  	transform: rotate(-170deg);
+}
+
+.text15-enter.text15-enter-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 3700ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 3700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 3700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 3700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 3700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text16-enter {
+  	left: -100%;
+  	transform: rotate(-160deg);
+}
+
+.text16-enter.text16-enter-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 3400ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 3400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 3400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 3400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 3400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text17-enter {
+  	left: -100%;
+  	transform: rotate(-180deg);
+}
+
+.text17-enter.text17-enter-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 3100ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 3100ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 3100ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 3100ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 3100ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text18-enter {
+  	left: -100%;
+  	transform: rotate(-180deg);
+}
+
+.text18-enter.text18-enter-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 2800ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 2800ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 2800ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 2800ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 2800ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text19-enter {
+  	left: -100%;
+  	transform: rotate(-180deg);
+}
+
+.text19-enter.text19-enter-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 2500ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 2500ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 2500ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 2500ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 2500ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text20-enter {
+  	left: -100%;
+  	transform: rotate(-180deg);
+}
+
+.text20-enter.text20-enter-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 2200ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 2200ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 2200ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 2200ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 2200ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text21-enter {
+  	left: -100%;
+  	transform: rotate(-180deg);
+}
+
+.text21-enter.text21-enter-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 1900ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 1900ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 1900ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 1900ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 1900ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text22-enter {
+  	left: -100%;
+  	transform: rotate(-180deg);
+}
+
+.text22-enter.text22-enter-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 1600ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 1600ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 1600ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 1600ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 1600ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text23-enter {
+  	left: -100%;
+  	transform: rotate(-180deg);
+}
+
+.text23-enter.text23-enter-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 1300ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 1300ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 1300ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 1300ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 1300ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text24-enter {
+  	left: -100%;
+  	transform: rotate(180deg);
+}
+
+.text24-enter.text24-enter-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 1000ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 1000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 1000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 1000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 1000ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text25-enter {
+  	left: -100%;
+  	transform: rotate(-180deg);
+}
+
+.text25-enter.text25-enter-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 700ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 700ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text26-enter {
+  	left: -100%;
+  	transform: rotate(-180deg);
+}
+
+.text26-enter.text26-enter-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 400ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 400ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
+.text27-enter {
+  	left: -100%;
+  	transform: rotate(-180deg);
+}
+
+.text27-enter.text27-enter-active {
+  	left: 0%;
+  	transform: rotate(0deg);
+	-webkit-transition: all 100ms cubic-bezier(0.525, 0.055, 0.000, 1); /* older webkit */
+	-webkit-transition: all 100ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	   -moz-transition: all 100ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	     -o-transition: all 100ms cubic-bezier(0.525, 0.055, 0.000, 1.045); 
+	        transition: all 100ms cubic-bezier(0.525, 0.055, 0.000, 1.045); /* custom */
+}
