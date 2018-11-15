@@ -106,7 +106,7 @@ export default class Projects extends React.Component {
 					<div className='projects-page'>
 						<div className='projects-page-title'><h1>#1 Personal Website</h1></div>
 						<div className='projects-page-description'>
-							<p>After some courses on <b><a href='https://www.freecodecamp.org/' target='_blank'>freeCodeCamp.org</a></b>, I have been trying to build up my personal website with React.js. And I hope that some of my elaborate features will make it an <b>unique personal website</b> in the world.</p>
+							<p>After some courses on <a href='https://www.freecodecamp.org/' target='_blank'>freeCodeCamp.org</a>, I have been trying to build up my personal website with React.js. And I hope that some of my elaborate features will make it an <b>unique personal website</b> in the world.</p>
 						</div>
 						<div className='projects-page-info'>
 							<div className='projects-page-skill'>
@@ -138,7 +138,7 @@ export default class Projects extends React.Component {
 					<div className='projects-page'>
 						<div className='projects-page-title'><h1>#2 Draggable Markdown Previewer</h1></div>
 						<div className='projects-page-description'>
-							<p>This is one simple React project on <b><a href='https://www.freecodecamp.org/' target='_blank'>freeCodeCamp.org</a></b>, and I tried to add some additional features to it. You can <b>drag the bar to resize the Editor/Previewer</b> and <b>click the MARKED/SOURCE button to switch the preview mode</b> between markdown and HTML source.</p>
+							<p>This is one simple React project on <a href='https://www.freecodecamp.org/' target='_blank'>freeCodeCamp.org</a>, and I tried to add some additional features to it. You can <b>drag the bar to resize the Editor/Previewer</b> and <b>click the MARKED/SOURCE button to switch the preview mode</b> between markdown and HTML source.</p>
 						</div>
 						<div className='projects-page-info'>
 							<div className='projects-page-skill'>

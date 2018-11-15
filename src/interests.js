@@ -141,31 +141,31 @@ export default class Interests extends React.Component {
 				    <div className="interests-page">
 				    	<div className='intro-text'>
 				    		Travel
-				    		<h1>I love traveling and recording life with photos</h1>
+				    		<p>I love traveling and recording life with photos</p>
 				    	</div>
 				    </div>
 				    <div className="interests-page">
 				    	<div className='intro-text'>
 				    		Singing
-				    		<h1>Sometimes I think singing is more expressive than just talking</h1>
+				    		<p>Sometimes I think singing is more expressive than just talking</p>
 				    	</div>
 				    </div>
 				    <div className="interests-page">
 				    	<div className='intro-text'>
 				    		Food
-				    		<h1>When I feel depressed, the sweets can heal me</h1>
+				    		<p>When I feel depressed, the sweets can heal me</p>
 				    	</div>
 				    </div>
 				    <div className="interests-page">
 				    	<div className='intro-text'>
 				    		Workout
-				    		<h1>After eating too much, it's time to burn extra calories</h1>
+				    		<p>After eating too much, it's time to burn extra calories</p>
 				    	</div>
 				    </div>
 				    <div className="interests-page">
 				    	<div className='intro-text'>
 				    		Coding
-				    		<h1>Coding, indeed</h1>
+				    		<p>Coding, indeed</p>
 				    	</div>
 				    </div>
 				    <div className="interests-page">
