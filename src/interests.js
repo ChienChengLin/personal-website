@@ -134,26 +134,44 @@ export default class Interests extends React.Component {
        		<div id='interests' className='page'>
 				<div id="interests-wrapper">
 				    <div className="interests-page">
-				    	<div className='scroll-text'>Scroll Down</div>
+				    	<div className='scroll-text'>
+				    		Scroll Down
+				    	</div>
 				    </div>
 				    <div className="interests-page">
-				    	<div className='intro-text'>Travel</div>
-
+				    	<div className='intro-text'>
+				    		Travel
+				    		<h1>I love traveling and recording life with photos</h1>
+				    	</div>
 				    </div>
 				    <div className="interests-page">
-				    	<div className='intro-text'>Singing</div>
+				    	<div className='intro-text'>
+				    		Singing
+				    		<h1>Sometimes I think singing is more expressive than just talking</h1>
+				    	</div>
 				    </div>
 				    <div className="interests-page">
-				    	<div className='intro-text'>Food</div>
+				    	<div className='intro-text'>
+				    		Food
+				    		<h1>When I feel depressed, the sweets can heal me</h1>
+				    	</div>
 				    </div>
 				    <div className="interests-page">
-				    	<div className='intro-text'>Workout</div>
+				    	<div className='intro-text'>
+				    		Workout
+				    		<h1>After eating too much, it's time to burn extra calories</h1>
+				    	</div>
 				    </div>
 				    <div className="interests-page">
-				    	<div className='intro-text'>Coding</div>
+				    	<div className='intro-text'>
+				    		Coding
+				    		<h1>Coding, indeed</h1>
+				    	</div>
 				    </div>
 				    <div className="interests-page">
-				    	<div className='scroll-text'>Scroll Up</div>
+				    	<div className='scroll-text'>
+				    		Scroll Up
+				    	</div>
 				    </div>
 				</div>
 			</div>           		
