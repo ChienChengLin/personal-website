@@ -119,7 +119,7 @@ function FlyingText(props) {
 		      transitionLeaveTimeout={4000}>		
 				{props.flyingTextMount1 && <li key='1'>A</li>}
 			</ReactCSSTransitionGroup>		
-				{props.flyingTextMount1 && <li key='2'>  </li>}
+				{props.flyingTextMount1 && <li key='2'>   </li>}
 			<ReactCSSTransitionGroup
 		      transitionName="text2"
 		      transitionEnter={true}
@@ -150,7 +150,7 @@ function FlyingText(props) {
 		      transitionLeaveTimeout={3100}>		
 				{props.flyingTextMount1 && <li key='5'>b</li>}
 			</ReactCSSTransitionGroup>
-				{props.flyingTextMount1 && <li>  </li>}
+				{props.flyingTextMount1 && <li>   </li>}
 			<ReactCSSTransitionGroup
 		      transitionName="text5"
 		      transitionEnter={true}
@@ -291,7 +291,7 @@ function FlyingText(props) {
 		      transitionLeaveTimeout={2800}>		
 				{props.flyingTextMount2 && <li key='19'>s</li>}
 			</ReactCSSTransitionGroup>
-				{props.flyingTextMount2 && <li key='20'>  </li>}
+				{props.flyingTextMount2 && <li key='20'>   </li>}
 			<ReactCSSTransitionGroup
 		      transitionName="text19"
 		      transitionEnter={true}
@@ -322,7 +322,7 @@ function FlyingText(props) {
 		      transitionLeaveTimeout={1900}>		
 				{props.flyingTextMount2 && <li key='23'>b</li>}
 			</ReactCSSTransitionGroup>
-				{props.flyingTextMount2 && <li key='24'>  </li>}
+				{props.flyingTextMount2 && <li key='24'>   </li>}
 			<ReactCSSTransitionGroup
 		      transitionName="text22"
 		      transitionEnter={true}

@@ -113,8 +113,8 @@ export default class Projects extends React.Component {
 								<h2># Programming Language & Skills</h2>
 								<ul>
 									<li>HTML / CSS / JavaScript</li>
-									<li>React.js</li>
-									<li>Babel / SCSS</li>
+									<li>React.js / Babel / SCSS</li>
+									<li>firebase</li>
 									<li>Webpack / npm</li>
 								</ul>
 							</div>
@@ -180,8 +180,8 @@ the <b>visual graphics</b> which provide an interactive way of Querying and Sear
 								<h2># Programming Language & Skills</h2>
 								<ul>
 									<li>HTML / CSS / JavaScript / d3.js</li>
-									<li>Python / Django</li>
-									<li>Scrapy / Jieba</li>
+									<li>Python / Django / SQLite</li>
+									<li>Scrapy / Jieba / Telnetlib</li>
 									<li>Gensim / Scikit-Learn</li>
 								</ul>
 							</div>
