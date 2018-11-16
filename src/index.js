@@ -11,6 +11,9 @@ import Projects from './projects';
 import Interests from './interests';
 import Contact from './contact';
 import Menu from './menu';
+import Fishes from './fishes';
+
+
 
 
 const SCSS_STYLE = require('./style.scss');
@@ -95,6 +98,7 @@ class App extends React.Component {
 					<Contact />
 				</div>
 				<Menu onClick={this.scrollToPage} />
+				<Fishes />
 			</div>
 		);
 	}

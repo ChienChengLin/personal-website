@@ -1,0 +1,239 @@
+#fishes-container {
+	position: fixed;
+	height: 90vh;
+	width: 100vw;
+	top: 5vh;
+	left: 0;
+	z-index: -1;
+
+	.fish {
+		position: fixed;
+		width: 100px;
+		height: auto;
+		
+	}
+
+	.left-fish {
+		left: -100px;
+	}
+
+	.right-fish {
+		right: -100px;
+	}
+
+
+	#fish1{
+		top: 0;
+	}
+	#fish2{
+		top: 20%;
+	}
+	#fish3{
+		top: 40%;
+	}
+	#fish4{
+		top: 60%;
+	}
+	#fish5{
+		top: 80%;
+	}
+	#fish6{
+		top: 5vh;
+	    -moz-transform: scaleX(-1);
+	    -webkit-transform: scaleX(-1);
+	    -o-transform: scaleX(-1);
+	    transform: scaleX(-1);
+	    -ms-filter: fliph; /*IE*/
+	    filter: fliph; /*IE*/
+	}
+	#fish7{
+		top: 25vh;
+	    -moz-transform: scaleX(-1);
+	    -webkit-transform: scaleX(-1);
+	    -o-transform: scaleX(-1);
+	    transform: scaleX(-1);
+	    -ms-filter: fliph; /*IE*/
+	    filter: fliph; /*IE*/
+	}
+	#fish8{
+		top: 45vh;
+	    -moz-transform: scaleX(-1);
+	    -webkit-transform: scaleX(-1);
+	    -o-transform: scaleX(-1);
+	    transform: scaleX(-1);
+	    -ms-filter: fliph; /*IE*/
+	    filter: fliph; /*IE*/
+	}
+	#fish9{
+		top: 65vh;
+	    -moz-transform: scaleX(-1);
+	    -webkit-transform: scaleX(-1);
+	    -o-transform: scaleX(-1);
+	    transform: scaleX(-1);
+	    -ms-filter: fliph; /*IE*/
+	    filter: fliph; /*IE*/
+	}
+	#fish10{
+		top: 85vh;
+	    -moz-transform: scaleX(-1);
+	    -webkit-transform: scaleX(-1);
+	    -o-transform: scaleX(-1);
+	    transform: scaleX(-1);
+	    -ms-filter: fliph; /*IE*/
+	    filter: fliph; /*IE*/
+	}
+	// fish1 ~ fish5 transition group
+	.fish1-appear {
+		left: -100px;
+	}
+	.fish1-appear.fish1-appear-active {
+		left: 100vw;
+		transition: all 30000ms ease;
+		
+	}
+	.fish1-enter {
+		left: -100px;
+	}
+	.fish1-enter.fish1-enter-active {
+		left: 100vw;
+		transition: all 30000ms ease;
+	}
+
+	.fish2-appear {
+		left: -100px;
+	}
+	.fish2-appear.fish2-appear-active {
+		left: 100vw;
+		transition: all 35000ms ease;
+	}
+	.fish2-enter {
+		left: -100px;
+	}
+	.fish2-enter.fish2-enter-active {
+		left: 100vw;
+		transition: all 35000ms ease;
+	}
+
+	.fish3-appear {
+		left: -100px;
+	}
+	.fish3-appear.fish3-appear-active {
+		left: 100vw;
+		transition: all 10000ms ease;
+	}
+	.fish3-enter {
+		left: -100px;
+	}
+	.fish3-enter.fish3-enter-active {
+		left: 100vw;
+		transition: all 10000ms ease;
+	}
+
+	.fish4-appear {
+		left: -100px;
+	}
+	.fish4-appear.fish4-appear-active {
+		left: 100vw;
+		transition: all 40000ms ease;
+	}
+	.fish4-enter {
+		left: -100px;
+	}
+	.fish4-enter.fish4-enter-active {
+		left: 100vw;
+		transition: all 40000ms ease;
+	}
+
+	.fish5-appear {
+		left: -100px;
+	}
+	.fish5-appear.fish5-appear-active {
+		left: 100vw;
+		transition: all 25000ms ease;
+	}
+	.fish5-enter {
+		left: 0;
+	}
+	.fish5-enter.fish5-enter-active {
+		left: 100vw;
+		transition: all 25000ms ease;
+	}
+
+	// fish6 ~ fish10 transition group
+	.fish6-appear {
+		right: -100px;
+	}
+	.fish6-appear.fish6-appear-active {
+		right: 100vw;
+		transition: all 27000ms ease;
+	}
+	.fish6-enter {
+		right: -100px;
+	}
+	.fish6-enter.fish6-enter-active {
+		right: 100vw;
+		transition: all 27000ms ease;
+	}
+
+	.fish7-appear {
+		right: -100px;
+	}
+	.fish7-appear.fish7-appear-active {
+		right: 100vw;
+		transition: all 32000ms ease;
+	}
+	.fish7-enter {
+		right: -100px;
+	}
+	.fish7-enter.fish7-enter-active {
+		right: 100vw;
+		transition: all 32000ms ease;
+	}
+
+	.fish8-appear {
+		right: -100px;
+	}
+	.fish8-appear.fish8-appear-active {
+		right: 100vw;
+		transition: all 8000ms ease;
+	}
+	.fish8-enter {
+		right: -100px;
+	}
+	.fish8-enter.fish8-enter-active {
+		right: 100vw;
+		transition: all 8000ms ease;
+	}
+
+	.fish9-appear {
+		right: -100px;
+	}
+	.fish9-appear.fish9-appear-active {
+		right: 100vw;
+		transition: all 30000ms ease;
+	}
+	.fish9-enter {
+		right: -100px;
+	}
+	.fish9-enter.fish9-enter-active {
+		right: 100vw;
+		transition: all 30000ms ease;
+	}
+
+	.fish10-appear {
+		right: -100px;
+	}
+	.fish10-appear.fish10-appear-active {
+		right: 100vw;
+		transition: all 12000ms ease;
+	}
+	.fish10-enter {
+		right: -100px;
+	}
+	.fish10-enter.fish10-enter-active {
+		right: 100vw;
+		transition: all 12000ms ease;
+	}
+
+
+}
