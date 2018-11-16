@@ -9,6 +9,7 @@
 }
 
 #navbar {
+	display: none;
 	height: 5vh;
 	width: 100vw;
 	-webkit-box-shadow: 0px -3px 5px 0px rgba(0,0,0,0.75);
@@ -61,14 +62,14 @@
 
 
 #wrapper {
-	height: 90vh;
+	height: 95vh;
 	margin-left: 0;
 	margin-right: 0;
-	margin-top: 5vh;
+	margin-top: 0vh;
 	margin-bottom: 5vh;
 
 	.page {
-		height: 90vh;
+		height: 95vh;
 		overflow-y: scroll;
 	}
 
@@ -421,10 +422,10 @@
 			overflow-y: scroll;
 			overflow-x: hidden; 
 			height: 100vw;
-			width:	90vh;
+			width:	95vh;
 			transform-origin: right top;
 			transform: rotate(-90deg);
-			left: -90vh;
+			left: -95vh;
 
 			background-image: url("./img/room.jpg");
 		    background-position: center center;
@@ -436,7 +437,7 @@
 				flex-direction: column;
 				justify-content: center;
 				height: 100vw;
-				width:	90vh;
+				width:	95vh;
 				overflow: hidden;
 				
 				.scroll-text {
@@ -530,7 +531,7 @@
 			#message-input-textarea {
 				h1 {
 					font-family: 'Open Sans';
-					font-size: 9vw;
+					font-size: 9.2vw;
 					font-weight: 700;
 					color: #1A454F;
 					text-indent: 0;
@@ -603,7 +604,7 @@
 
 				h1 {
 					font-family: 'Open Sans';
-					font-size: 7.5vw;
+					font-size: 9.2vw;
 					font-weight: 700;
 					color: #1A454F;
 					text-indent: 0;
@@ -772,7 +773,7 @@
 						background-color: #1A454F;
 						border-radius: 5px;
 						padding: 3%;
-						margin-top: 3%;
+						margin-top: 7%;
 
 						.message-reply-author {
 							display: inline-block;
@@ -826,8 +827,8 @@
 
 #menu {
 	position: fixed;
-	top: 0;
-	bottom: 95vh;
+	top: 95vh;
+	bottom: 0;
 	display: flex;
 	flex-direction: row;
 	height: 5vh;
