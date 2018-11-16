@@ -1,3 +1,13 @@
+* {
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	 -khtml-user-select: none; /* Konqueror HTML */
+	   -moz-user-select: none; /* Firefox */
+	    -ms-user-select: none; /* Internet Explorer/Edge */
+	        user-select: none; /* Non-prefixed version, currently
+	                              supported by Chrome and Opera */	
+}
+
 #navbar {
 	height: 5vh;
 	width: 100vw;
@@ -8,7 +18,9 @@
 	display: flex;
 	flex-direction: row;
 	bottom: 0;
-	padding: 0 2.5vw; 
+	padding: 0 2.5vw;
+
+	z-index: 1; 
 
 	-webkit-touch-callout: none; /* iOS Safari */
 	-webkit-user-select: none; /* Safari */
@@ -49,7 +61,7 @@
 
 
 #wrapper {
-	height: 90vh;
+	height: 100vh;
 	margin-left: 0;
 	margin-right: 0;
 	margin-top: 5vh;
@@ -820,6 +832,7 @@
 	flex-direction: row;
 	height: 5vh;
 	width: 100vw;
+	z-index: 1;
 
 	-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
