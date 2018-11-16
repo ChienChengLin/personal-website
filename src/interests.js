@@ -126,6 +126,7 @@ export default class Interests extends React.Component {
 
 
 	componentDidMount(){
+		//scroll animation only when vw > 767px
 		if(window.innerWidth > 767){
 			document.getElementById('interests-wrapper').addEventListener('scroll', this.handleScroll);			
 		}		

@@ -59,41 +59,45 @@ export default class Projects extends React.Component {
 	}
 
 	handleMouseOver(direction){
-		let prev = document.getElementById('prev');
-		let next = document.getElementById('next');
-		let directionIcons = document.getElementsByClassName('direction-icon');
+		// MouseHover animation only when vw > 1024px
+		if(window.innerWidth > 1024){
+			let prev = document.getElementById('prev');
+			let next = document.getElementById('next');
+			let directionIcons = document.getElementsByClassName('direction-icon');
 
-		prev.style.backgroundColor = 'rgba(26, 69, 79, 0.7)';
-		next.style.backgroundColor = 'rgba(26, 69, 79, 0.7)';
-		
-		if(direction == 'prev'){
-			prev.style.width = '60px';
-			next.style.width = '40px';
-			directionIcons[0].style.left = '5px';
-			directionIcons[1].style.left = '5px';
+			prev.style.backgroundColor = 'rgba(26, 69, 79, 0.7)';
+			next.style.backgroundColor = 'rgba(26, 69, 79, 0.7)';
+			
+			if(direction == 'prev'){
+				prev.style.width = '60px';
+				next.style.width = '40px';
+				directionIcons[0].style.left = '5px';
+				directionIcons[1].style.left = '5px';
+			}
+			else {
+				next.style.width = '60px';
+				prev.style.width = '40px';
+				directionIcons[0].style.left = '-5px';
+				directionIcons[1].style.left = '-5px';			
+			}			
 		}
-		else {
-			next.style.width = '60px';
-			prev.style.width = '40px';
-			directionIcons[0].style.left = '-5px';
-			directionIcons[1].style.left = '-5px';			
-		}
-
 	}
 
 	handleMouseOut(){
-		let prev = document.getElementById('prev');
-		let next = document.getElementById('next');
-		let directionIcons = document.getElementsByClassName('direction-icon');
+		// MouseHover animation only when vw > 1024px
+		if(window.innerWidth > 1024){
+			let prev = document.getElementById('prev');
+			let next = document.getElementById('next');
+			let directionIcons = document.getElementsByClassName('direction-icon');
 
-		prev.style.backgroundColor = 'rgba(26, 69, 79, 1)';
-		next.style.backgroundColor = 'rgba(26, 69, 79, 1)';		
-		
-		prev.style.width = '50px';
-		next.style.width = '50px';
-		directionIcons[0].style.left = '0px';
-		directionIcons[1].style.left = '0px';
-	
+			prev.style.backgroundColor = 'rgba(26, 69, 79, 1)';
+			next.style.backgroundColor = 'rgba(26, 69, 79, 1)';		
+			
+			prev.style.width = '50px';
+			next.style.width = '50px';
+			directionIcons[0].style.left = '0px';
+			directionIcons[1].style.left = '0px';			
+		}
 	}
 
 	render(){
