@@ -37,6 +37,13 @@ body {
 	-moz-box-shadow: 3px 0px 5px 0px rgba(0,0,0,0.75);
 	box-shadow: 3px 0px 5px 0px rgba(0,0,0,0.75);
 
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	 -khtml-user-select: none; /* Konqueror HTML */
+	   -moz-user-select: none; /* Firefox */
+	    -ms-user-select: none; /* Internet Explorer/Edge */
+	        user-select: none; /* Non-prefixed version, currently
+	                              supported by Chrome and Opera */
 	ul {
 		text-align: center;
 		line-height: 6vh;
@@ -955,6 +962,14 @@ body {
 			background-color: #1A454F;
 			width: 95%;
 			border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+			-webkit-touch-callout: none; /* iOS Safari */
+			-webkit-user-select: none; /* Safari */
+			 -khtml-user-select: none; /* Konqueror HTML */
+			   -moz-user-select: none; /* Firefox */
+			    -ms-user-select: none; /* Internet Explorer/Edge */
+			        user-select: none; /* Non-prefixed version, currently
+			                              supported by Chrome and Opera */			
 			
 			.menu-icon {
 				font-size: 35px;

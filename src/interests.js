@@ -73,6 +73,9 @@ export default class Interests extends React.Component {
 	}	
 
 	handleScroll(){
+		// prevent bugs occur in Chrome
+		document.querySelector('#interests').scrollIntoView();
+
 		let el = document.getElementById('interests-wrapper');
 		let totalScrollHeight = el.scrollHeight - el.clientHeight;
 		let currentScrollHeight = el.scrollTop;
@@ -123,7 +126,9 @@ export default class Interests extends React.Component {
 
 
 	componentDidMount(){
-		document.getElementById('interests-wrapper').addEventListener('scroll', this.handleScroll);
+		if(window.innerWidth > 767){
+			document.getElementById('interests-wrapper').addEventListener('scroll', this.handleScroll);			
+		}		
 	}
 
 	

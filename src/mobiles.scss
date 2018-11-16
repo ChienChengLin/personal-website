@@ -10,6 +10,13 @@
 	bottom: 0;
 	padding: 0 2.5vw; 
 
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	 -khtml-user-select: none; /* Konqueror HTML */
+	   -moz-user-select: none; /* Firefox */
+	    -ms-user-select: none; /* Internet Explorer/Edge */
+	        user-select: none; /* Non-prefixed version, currently
+	                              supported by Chrome and Opera */
 	ul {
 		display: flex;
 		flex-direciton: row;
@@ -836,6 +843,14 @@
 			width: 100%;
 			border-right: 1px solid rgba(255, 255, 255, 0.1);
 			border-bottom: 0px;
+
+			-webkit-touch-callout: none; /* iOS Safari */
+			-webkit-user-select: none; /* Safari */
+			 -khtml-user-select: none; /* Konqueror HTML */
+			   -moz-user-select: none; /* Firefox */
+			    -ms-user-select: none; /* Internet Explorer/Edge */
+			        user-select: none; /* Non-prefixed version, currently
+			                              supported by Chrome and Opera */
 			
 			.menu-icon {
 				display: none;
