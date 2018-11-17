@@ -125,8 +125,8 @@ export default class Projects extends React.Component {
 							<div className='projects-page-link'>
 								<h2># Links</h2>
 								<ul>
-									<li><a href='#'>Page</a></li>
-									<li><a href='#'>Source Code</a></li>
+									<li><a href='https://chienchenglin.github.io/personal-website/' target='_blank'>Page</a></li>
+									<li><a href='https://github.com/ChienChengLin/personal-website' target='_blank'>Source Code</a></li>
 								</ul>
 							</div>
 						</div>
@@ -157,8 +157,8 @@ export default class Projects extends React.Component {
 							<div className='projects-page-link'>
 								<h2># Links</h2>
 								<ul>
-									<li><a href='#'>Page</a></li>
-									<li><a href='#'>Source Code</a></li>
+									<li><a href='https://chienchenglin.github.io/draggable-markdown-previewer/' target='_blank'>Page</a></li>
+									<li><a href='https://github.com/ChienChengLin/draggable-markdown-previewer' target='_blank'>Source Code</a></li>
 								</ul>
 							</div>
 						</div>

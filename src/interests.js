@@ -9,7 +9,8 @@ export default class Interests extends React.Component {
 	constructor(props){
 		super(props);
 		this.state = {
-			percent: 0
+			percent: 0,
+			scrollDownOrLeft: true
 		}
 		this.handleScroll = this.handleScroll.bind(this);
 		this.bothEndsTransition = this.bothEndsTransition.bind(this);
@@ -129,6 +130,14 @@ export default class Interests extends React.Component {
 		//scroll animation only when vw > 767px
 		if(window.innerWidth > 767){
 			document.getElementById('interests-wrapper').addEventListener('scroll', this.handleScroll);			
+			this.setState({
+				scrollDownOrLeft: true
+			});		
+		}
+		else{
+			this.setState({
+				scrollDownOrLeft: false
+			});
 		}		
 	}
 
@@ -141,7 +150,8 @@ export default class Interests extends React.Component {
 				<div id="interests-wrapper">
 				    <div className="interests-page">
 				    	<div className='scroll-text'>
-				    		Scroll Down
+				    		{this.state.scrollDownOrLeft && 'Scroll Down'}
+				    		{!this.state.scrollDownOrLeft && 'Scroll Right'}
 				    	</div>
 				    </div>
 				    <div className="interests-page">
@@ -176,7 +186,8 @@ export default class Interests extends React.Component {
 				    </div>
 				    <div className="interests-page">
 				    	<div className='scroll-text'>
-				    		Scroll Up
+				    		{this.state.scrollDownOrLeft && 'Scroll Up'}
+				    		{!this.state.scrollDownOrLeft && 'Scroll Left'}
 				    	</div>
 				    </div>
 				</div>
