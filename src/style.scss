@@ -23,7 +23,6 @@ body {
     //background-repeat: no-repeat;
     //background-size: cover;
     //z-index: -999;
-    overflow: auto;
 }
 
 #outer-wrapper {
@@ -32,6 +31,7 @@ body {
 
 
 #navbar {
+	overflow: hidden;
 	position: fixed;
 	height: 90vh;
 	width: 70px;
@@ -973,7 +973,7 @@ body {
 	flex-direction: column;
 	height: 90vh;
 	width: 140px;
-	overflow: scroll;
+	overflow: hidden;
 
 	-webkit-box-shadow: -3px 0px 5px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: -3px 0px 5px 0px rgba(0,0,0,0.75);
