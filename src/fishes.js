@@ -40,6 +40,7 @@ export default class Fishes extends React.Component {
 		};
 
 		this.mountFish = this.mountFish.bind(this);
+		this.randomFishSize = this.randomFishSize.bind(this);
 	}
 
 	mountFish(fishNum){
@@ -56,7 +57,7 @@ export default class Fishes extends React.Component {
 			min = 1;
 			let randomFishNum = Math.floor(Math.random()*(max-min+1)+min);
 			let randomFishType;
-
+			// choose fish type
 			if(randomFishNum == 1){
 				randomFishType = Fish1;
 			}
@@ -115,6 +116,7 @@ export default class Fishes extends React.Component {
 				randomFishType = Fish19;
 			}
 
+			
 			let tempObj = {
 				mount: true,
 				type: randomFishType
@@ -125,13 +127,39 @@ export default class Fishes extends React.Component {
 				[fishNum]: {mount: true, type: randomFishType}
 			});
 
+
+
 			setTimeout(() => {
 				this.setState({
 					[fishNum]: {mount: false, type: randomFishType}
 				});
-				this.mountFish(fishNum);				
+
+				this.mountFish(fishNum);
+
 			}, fishSpeedArray[fishNumInt] + 2000);
 		}
+	}
+
+	randomFishSize(){
+		let max = 100;
+		let min = 1;
+		let randomNum = Math.floor(Math.random()*(max-min+1)+min);
+
+		if(randomNum >= 1 && randomNum <= 70){ //normal size
+			max = 120;
+			min = 100;
+		}
+		else if(randomNum >= 71 && randomNum <= 85){ //big size
+			max = 250;
+			min = 200;
+		}
+		else { //small size
+			max = 60;
+			min = 30;
+		}
+
+		let size = Math.floor(Math.random()*(max-min+1)+min);
+		return size;
 	}
 
 	componentDidMount(){
@@ -161,7 +189,7 @@ export default class Fishes extends React.Component {
 			      transitionAppearTimeout={30000}
 			      transitionEnterTimeout={30000}
 			      transitionLeaveTimeout={0}>
-						<object data={this.state.fish1.type} id='fish1' className='fish left-fish' key='fish1'></object>
+						<object data={this.state.fish1.type} id='fish1' className='fish left-fish' key='fish1' style={{width: this.randomFishSize()}}></object>
 				</ReactCSSTransitionGroup>}
 				{this.state.fish2.mount &&
 				<ReactCSSTransitionGroup
@@ -172,7 +200,7 @@ export default class Fishes extends React.Component {
 			      transitionAppearTimeout={35000}
 			      transitionEnterTimeout={35000}
 			      transitionLeaveTimeout={0}>
-						<object data={this.state.fish2.type} id='fish2' className='fish left-fish' key='fish2'></object>
+						<object data={this.state.fish2.type} id='fish2' className='fish left-fish' key='fish2' style={{width: this.randomFishSize()}}></object>
 				</ReactCSSTransitionGroup>}	
 				{this.state.fish3.mount &&
 				<ReactCSSTransitionGroup
@@ -183,7 +211,7 @@ export default class Fishes extends React.Component {
 			      transitionAppearTimeout={10000}
 			      transitionEnterTimeout={10000}
 			      transitionLeaveTimeout={0}>
-						<object data={this.state.fish3.type} id='fish3' className='fish left-fish' key='fish3'></object>
+						<object data={this.state.fish3.type} id='fish3' className='fish left-fish' key='fish3' style={{width: this.randomFishSize()}}></object>
 				</ReactCSSTransitionGroup>}
 				{this.state.fish4.mount &&
 				<ReactCSSTransitionGroup
@@ -194,7 +222,7 @@ export default class Fishes extends React.Component {
 			      transitionAppearTimeout={40000}
 			      transitionEnterTimeout={40000}
 			      transitionLeaveTimeout={0}>
-						<object data={this.state.fish4.type} id='fish4' className='fish left-fish' key='fish4'></object>
+						<object data={this.state.fish4.type} id='fish4' className='fish left-fish' key='fish4' style={{width: this.randomFishSize()}}></object>
 				</ReactCSSTransitionGroup>}	
 				{this.state.fish5.mount &&
 				<ReactCSSTransitionGroup
@@ -205,7 +233,7 @@ export default class Fishes extends React.Component {
 			      transitionAppearTimeout={25000}
 			      transitionEnterTimeout={25000}
 			      transitionLeaveTimeout={0}>
-						<object data={this.state.fish5.type} id='fish5' className='fish left-fish' key='fish5'></object>
+						<object data={this.state.fish5.type} id='fish5' className='fish left-fish' key='fish5' style={{width: this.randomFishSize()}}></object>
 				</ReactCSSTransitionGroup>}
 				{this.state.fish6.mount &&
 				<ReactCSSTransitionGroup
@@ -216,7 +244,7 @@ export default class Fishes extends React.Component {
 			      transitionAppearTimeout={27000}
 			      transitionEnterTimeout={27000}
 			      transitionLeaveTimeout={0}>
-						<object data={this.state.fish6.type} id='fish6' className='fish right-fish' key='fish6'></object>
+						<object data={this.state.fish6.type} id='fish6' className='fish right-fish' key='fish6' style={{width: this.randomFishSize()}}></object>
 				</ReactCSSTransitionGroup>}
 				{this.state.fish7.mount &&
 				<ReactCSSTransitionGroup
@@ -227,7 +255,7 @@ export default class Fishes extends React.Component {
 			      transitionAppearTimeout={32000}
 			      transitionEnterTimeout={32000}
 			      transitionLeaveTimeout={0}>
-						<object data={this.state.fish7.type} id='fish7' className='fish right-fish' key='fish7'></object>
+						<object data={this.state.fish7.type} id='fish7' className='fish right-fish' key='fish7' style={{width: this.randomFishSize()}}></object>
 				</ReactCSSTransitionGroup>}
 				{this.state.fish8.mount &&
 				<ReactCSSTransitionGroup
@@ -238,7 +266,7 @@ export default class Fishes extends React.Component {
 			      transitionAppearTimeout={8000}
 			      transitionEnterTimeout={8000}
 			      transitionLeaveTimeout={0}>
-						<object data={this.state.fish8.type} id='fish8' className='fish right-fish' key='fish8'></object>
+						<object data={this.state.fish8.type} id='fish8' className='fish right-fish' key='fish8' style={{width: this.randomFishSize()}}></object>
 				</ReactCSSTransitionGroup>}	
 				{this.state.fish9.mount &&
 				<ReactCSSTransitionGroup
@@ -249,7 +277,7 @@ export default class Fishes extends React.Component {
 			      transitionAppearTimeout={30000}
 			      transitionEnterTimeout={30000}
 			      transitionLeaveTimeout={0}>
-						<object data={this.state.fish9.type} id='fish9' className='fish right-fish' key='fish9'></object>
+						<object data={this.state.fish9.type} id='fish9' className='fish right-fish' key='fish9' style={{width: this.randomFishSize()}}></object>
 				</ReactCSSTransitionGroup>}
 				{this.state.fish10.mount &&
 				<ReactCSSTransitionGroup
@@ -260,7 +288,7 @@ export default class Fishes extends React.Component {
 			      transitionAppearTimeout={12000}
 			      transitionEnterTimeout={12000}
 			      transitionLeaveTimeout={0}>
-						<object data={this.state.fish10.type} id='fish10' className='fish right-fish' key='fish10'></object>
+						<object data={this.state.fish10.type} id='fish10' className='fish right-fish' key='fish10' style={{width: this.randomFishSize()}}></object>
 				</ReactCSSTransitionGroup>}						
 			</div>
 			
