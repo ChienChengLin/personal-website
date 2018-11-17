@@ -188,12 +188,45 @@ body {
 				}
 				#quote {
 					position: relative;
-					left: 0px;
 					display: inline-block;
 					font-family: 'Caveat';
 					font-size: 1.8vw;
 					font-weight: bold;
 					color: #F5D73F;
+				}
+				.quote-position {
+					left: 75%;
+				}
+				#quote-space {
+					position: relative;
+					display: inline-block;
+					font-family: 'Caveat';
+					font-size: 1.8vw;
+					font-weight: bold;
+					color: #F5D73F;
+					visibility: hidden;					
+				}
+				.quote-appear {
+					left: -75%;
+				}
+
+				.quote-appear.quote-appear-active {
+					left: 75%;
+					-webkit-transition: all 15000ms linear; 
+					   -moz-transition: all 15000ms linear; 
+					     -o-transition: all 15000ms linear;
+					        transition: all 15000ms linear;
+				}
+				.quote-enter {
+					left: -75%;
+				}
+
+				.quote-enter.quote-enter-active {
+					left: 75%;
+					-webkit-transition: all 15000ms linear; 
+					   -moz-transition: all 15000ms linear; 
+					     -o-transition: all 15000ms linear;
+					        transition: all 15000ms linear;
 				}
 			}
 		}
