@@ -31,11 +31,7 @@ class App extends React.Component {
 	}
 
 	scrollToPage(pageID){
-		document.getElementById('wrapper').onwheel = function(){ return false; }
 		document.querySelector(pageID).scrollIntoView({behavior: 'smooth'});
-		setTimeout(() => {
-			document.getElementById('wrapper').onwheel = function(){ return true; }
-		}, 1000);
 		this.setState({
 			currentPage: pageID.slice(1, )
 		});
