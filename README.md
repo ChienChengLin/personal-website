@@ -3,6 +3,52 @@
 
 #### DEMO website here :arrow_right: https://chienchenglin.github.io/draggable-markdown-previewer/ :arrow_left:
 
+## Languages & Tools
+- HTML / CSS / JavaScript
+- React.js / Babel / SCSS
+- firebase
+- Webpack / npm
+
+## Structure
+```
+./personal-website
+├── .babelrc
+├── .gitignore
+├── README.md
+├── README-src
+│   ├── contact.gif
+│   ├── home.gif
+│   ├── interests.gif
+│   ├── mobiles.gif
+│   ├── projects.gif
+│   ├── resume.gif
+│   └── tablets.gif
+├── package-lock.json
+├── package.json
+├── webpack.config.js
+│
+├── dist
+│   ├── index.bundle.js
+│   └── index.html
+├── src
+│   ├── img
+│   ├── index.html
+│   ├── index.js
+│   ├── fishes.js
+│   ├── container.js
+│   ├── resume.js
+│   ├── projects.js
+│   ├── interests.js
+│   ├── contact.js
+│   ├── navbar.js
+│   ├── menu.js
+│   ├── style.scss
+│   ├── _custom.scss
+│   ├── fishes.scss
+│   ├── mobiles.scss
+│   ├── tablets.scss
+│   └── text-animation.scss
+```
 
 ## Features
 - #### Home page with an aquarium and some text animations
