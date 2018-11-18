@@ -51,23 +51,23 @@
 ```
 
 ## Features
-- #### Home page with an aquarium and some text animations
+- ### Home page with an aquarium and some text animations
 ![home page gif](./README-src/home.gif)
 
-- #### Personalised resume
+- ### Personalised resume
 ![resume page gif](./README-src/resume.gif)
 
-- #### Some of my projects
+- ### Some of my projects
 ![projects page gif](./README-src/projects.gif)
 
-- #### Scroll the page to have a deeper understand of me
+- ### Scroll the page to have a deeper understand of me
 ![interests page gif](./README-src/interests.gif)
 
-- #### message board based on google firebase realtime database and authentication
+- ### message board based on google firebase realtime database and authentication
 ![contact page gif](./README-src/contact.gif)
 
-- #### Responsive Web Design (RWD) for tablets
+- ### Responsive Web Design (RWD) for tablets
 ![tablets view gif](./README-src/tablets.gif)
 
-- #### Responsive Web Design (RWD) for mobiles
+- ### Responsive Web Design (RWD) for mobiles
 ![mobiles view gif](./README-src/mobiles.gif)
