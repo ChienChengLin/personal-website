@@ -192,8 +192,8 @@ the <b>visual graphics</b> which provide an interactive way of Querying and Sear
 							<div className='projects-page-link'>
 								<h2># Links</h2>
 								<ul>
-									<li><a href='#'>Demo Video</a></li>
-									<li><a href='#'>Source Code</a></li>
+									<li><a href='https://youtu.be/GaCW5M60uz0' target='_blank'>Demo Video</a></li>
+									<li><a href='https://github.com/ChienChengLin/PTTonitor' target='_blank'>Source Code</a></li>
 								</ul>
 							</div>
 						</div>
